@@ -1,5 +1,6 @@
 import org.junit.Test;
 
+import static org.assertj.core.api.Assertions.assertThat;
 public class SimpleTest {
 
     @Test
@@ -16,6 +17,7 @@ public class SimpleTest {
 
     @Test
     public void test3() {
-        System.out.println("Test 3 works");
+
+        assertThat(1).isEqualTo(2);
     }
 }
